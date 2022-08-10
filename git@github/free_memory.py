@@ -2,7 +2,7 @@
 
 
 def main():
-	print("Everything is Going Good !")
+        print("Everything is Going Good !")
 
 
 
