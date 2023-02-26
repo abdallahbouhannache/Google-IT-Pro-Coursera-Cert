@@ -1,0 +1,10 @@
+module,pattern,expression
+
+import re
+
+^\w+
+
+re.search(pattern,texttocheckagainst)
+
+r'' rawstring
+re.search(r'patern',stringtolookagainst,re.INGONRECASE)

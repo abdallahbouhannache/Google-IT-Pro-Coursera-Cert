@@ -1,0 +1,10 @@
+Aug 18 16:17:39 devman sudo[11206]: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Aug 18 16:18:14 devman sudo[11206]: pam_unix(sudo:session): session closed for user root
+Aug 18 16:19:48 devman systemd[2165]: Started snap.sublime-text.subl.ef6fbc17-b652-4667-a58b-61d12be510b4.scope.
+Aug 18 16:19:48 devman gnome-shell[2320]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Aug 18 16:24:13 devman dbus-daemon[2197]: [session uid=1000 pid=2197] Activating service name='org.gnome.gedit' requested by ':1.127' (uid=1000 pid=6535 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Aug 18 16:24:13 devman dbus-daemon[2197]: [session uid=1000 pid=2197] Successfully activated service 'org.gnome.gedit'
+Aug 18 16:24:13 devman gnome-shell[2320]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
+Aug 18 16:24:48 devman dbus-daemon[2197]: [session uid=1000 pid=2197] Activating service name='org.gnome.gedit' requested by ':1.127' (uid=1000 pid=6535 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
+Aug 18 16:24:48 devman dbus-daemon[2197]: [session uid=1000 pid=2197] Successfully activated service 'org.gnome.gedit'
+Aug 18 16:24:48 devman gnome-shell[2320]: meta_window_set_stack_position_no_sync: assertion 'window->stack_position >= 0' failed
