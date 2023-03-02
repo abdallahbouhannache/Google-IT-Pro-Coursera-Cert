@@ -95,6 +95,7 @@ patch old_version < file.diff
 >git remote update =>Fetches the most up-to-date objects
 >git fetch=> Downloads specific objects
 >git push --delete origin/refractor
+>git push -u origin newbranch => allow to push newbranch on remote while u should be on it locally
 >git push -f => force push to remote
 [![](https://help.github.com/en/articles/about-pull-request-merges](pull-request)
 
