@@ -24,6 +24,7 @@ patch old_version < file.diff
 >git add -p Allows a user to interactively review patches to add to the current commit
 >git mv Similar to the Linux `mv` command, this moves a file
 >git rm Similar to the Linux `rm` command, this deletes, or removes a file
+>git branch -m <oldname> <newname> to rename branch oldname to newname
 >git checkout file1 file2 ==>>go back to before stage 
 >git checkout -p file1 file2 ==>>individual changes
 >git reset ==>> unstage files from a specific pointer|alias(like HEAD )
