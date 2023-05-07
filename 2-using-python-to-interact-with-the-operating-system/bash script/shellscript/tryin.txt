@@ -1,0 +1,35 @@
+me@gmail.com 31154689432 45 name
+steve@west.com michael 78 steve
+sed -i 'Ns/.*/${dataset[@]}/' filename
+##        if grep -i field filename
+
+
+if $nb;then 
+    #echo $field
+    echo "exist"
+    echo $nb
+    break
+else:
+    echo 0
+fi
+`grep -nwqFi "$field" "$filename" `
+
+
+
+
+if [ -n "$h" ];then
+                #echo $field
+                echo "exist"
+                nb=`grep -nwFi "$field" "$filename" | cut -d: -f1`
+                echo "$nb"
+                break
+            else:
+                echo "donestnoexist"
+                echo "-1"
+            fi
+
+
+            if [ -n "${dataset[@]}" ];
+        then
+            exit
+        fi
